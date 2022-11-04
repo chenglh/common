@@ -1,5 +1,9 @@
 # 执行如下命令
+
+# 初始化module
 go mod init "github.com/chenglh/common"
+
+# 获取资源
 go mod tidy
 
 # 初始化成仓库
