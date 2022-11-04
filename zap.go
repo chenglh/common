@@ -1,1 +1,5 @@
 package common
+
+func init()  {
+	
+}
