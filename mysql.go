@@ -4,7 +4,7 @@ import (
 	"github.com/asim/go-micro/v3/config"
 )
 
-//创建结构体
+//创建结构体(mysqlCfg)
 type MysqlConfig struct {
 	Host     string `json:"host"`
 	User     string `json:"user"`
