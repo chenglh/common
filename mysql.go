@@ -1,6 +1,8 @@
 package common
 
-import "github.com/asim/go-micro/v3/config"
+import (
+	"github.com/asim/go-micro/v3/config"
+)
 
 //创建结构体
 type MysqlConfig struct {
