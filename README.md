@@ -22,7 +22,7 @@ git add .
 git commit -m "init"
 
 # 推送到 main 分支
-git push -u origin main
+git push -u origin master
 
 # 显示远程仓库
 git remote -v
