@@ -5,11 +5,14 @@ go 1.19
 require (
 	github.com/asim/go-micro/plugins/config/source/consul/v3 v3.7.0
 	github.com/asim/go-micro/v3 v3.7.1
+	github.com/opentracing/opentracing-go v1.2.0
+	github.com/uber/jaeger-client-go v2.30.0+incompatible
 	go.uber.org/zap v1.10.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 )
 
 require (
+	github.com/HdrHistogram/hdrhistogram-go v1.1.2 // indirect
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
 	github.com/bitly/go-simplejson v0.5.0 // indirect
 	github.com/fatih/color v1.9.0 // indirect
@@ -31,6 +34,8 @@ require (
 	github.com/mitchellh/mapstructure v1.3.3 // indirect
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c // indirect
 	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	go.uber.org/atomic v1.4.0 // indirect
 	go.uber.org/multierr v1.1.0 // indirect
 	golang.org/x/net v0.0.0-20210510120150-4163338589ed // indirect
